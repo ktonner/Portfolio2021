@@ -1,9 +1,12 @@
 import React from "react";
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 
 
 const Home = () => (
     <div>
+        <Container>
         <h1>Kathleen Tonner</h1>
         <p><b>Full Stack Web Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong back-end development with MySQL and collaboration skills when working in a team on a recent project to create a book logging application for users to keep track of their favorite books. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
 </p>
@@ -18,6 +21,7 @@ const Home = () => (
         >
             Learn React
         </a>
+        </Container>
     </div>
 )
 

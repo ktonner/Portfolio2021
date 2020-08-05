@@ -3,21 +3,23 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import './pcss.css'
-import Projects from './Projects'
+import Projects from '../Components/Projects'
 
 const Work = () => (
-    <Container>
+    <Container style={{position:"relative", width:'200%'}}>
     <Row>
-    <Col xs={2} md={2} className="mx-auto">
-    <h2>Languages</h2>
+      <Col xs={3} md={3}>
+        <Row>
+    <Col xs={1} md={1} className="skills">
+    <h3>Languages</h3>
       <p>HTML</p>
       <p>CSS</p>
       <p>Javascript</p>
       <p>Node.js</p>
       <p>SQL</p>
     </Col>
-    <Col xs={2} md={2}className="mx-auto">
-    <h2>Applications</h2>
+    <Col xs={1} md={1}className="mx-auto skills">
+    <h3>Applications</h3>
     <p>MySQL</p>
     <p>MongoDB</p>
     <p>Express</p>
@@ -25,9 +27,11 @@ const Work = () => (
     <p>React</p>
     <p>Mongoose</p>
     </Col>
-    <Col xs={8} md={8}className="mx-auto">
+    </Row>
+    </Col>
+    <Col xs={9} md={9}className="mx-auto">
       <h1>Box</h1>
-      <Projects></Projects>
+      <Projects/>
       </Col>
     </Row>
     </Container>

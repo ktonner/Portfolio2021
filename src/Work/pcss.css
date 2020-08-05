@@ -1,3 +1,17 @@
+Container{
+    width:100%
+}
+
 .skills {
     border: white;
+}
+
+Figure{
+    font-size: 20px;
+    width: 400px;
+    margin:5px
+}
+
+p{
+    font-size:18px;
 }

@@ -6,9 +6,9 @@ import './pcss.css'
 import Projects from '../Components/Projects'
 
 const Work = () => (
-    <Container style={{position:"relative", width:'200%'}}>
+    <Container>
     <Row>
-      <Col xs={3} md={3}>
+      <Col xs={3} md={3} style={{float:'left'}}>
         <Row>
     <Col xs={1} md={1} className="skills">
     <h3>Languages</h3>

@@ -9,9 +9,21 @@ Container{
 Figure{
     font-size: 20px;
     width: 400px;
-    margin:5px
+    margin:5px;
+}
+
+Button{
+    margin:2px;
+}
+
+Caption{
+    background-color:purple
 }
 
 p{
-    font-size:18px;
+    font-size:16px;
+}
+
+h3{
+    font-size:20px;
 }

@@ -5,6 +5,8 @@ class Skills extends React.Component {
     render() {
         return(
         <div>
+         <br></br>
+         <br></br>
                 <h3>Languages</h3>
                 <p>HTML</p>
                 <p>CSS</p>

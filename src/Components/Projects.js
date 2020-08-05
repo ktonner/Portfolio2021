@@ -11,7 +11,7 @@ class Projects extends React.Component {
           <Row>
         <Figure>
         <Figure.Image
-          width={400}
+          width={300}
           height={500}
           alt="171x180"
           src={require('../assets/soapbox.png')}
@@ -24,7 +24,7 @@ class Projects extends React.Component {
       </Figure>
         <Figure>
         <Figure.Image
-          width={400}
+          width={300}
           height={200}
           alt="171x180"
           src={require('../assets/booklogger.png')}
@@ -35,24 +35,9 @@ class Projects extends React.Component {
         <Button>Github</Button>
         <Button>Deployed</Button>
       </Figure>
-      </Row>
-      <Row>
       <Figure>
         <Figure.Image
-          width={400}
-          height={100}
-          alt="171x180"
-          src={require('../assets/budget.jpg')}
-        />
-        <Figure.Caption>
-        Keep track of your budget with a dynamic graph.
-        </Figure.Caption>
-        <Button>Github</Button>
-        <Button>Deployed</Button>
-      </Figure>
-      <Figure>
-        <Figure.Image
-          width={400}
+          width={300}
           height={200}
           alt="171x180"
           src={require('../assets/notetaker.png')}

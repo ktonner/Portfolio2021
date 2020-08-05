@@ -3,17 +3,19 @@ Container{
 }
 
 .skills {
-    border: white;
+    background-color: black;
 }
 
 Figure{
-    font-size: 20px;
-    width: 400px;
+    font-size: 18px;
+    width: 300px;
     margin:5px;
+    border-radius: 10px;
+    background-color: black;
 }
 
 Button{
-    margin:2px;
+    margin:5px;
 }
 
 Caption{
@@ -21,7 +23,7 @@ Caption{
 }
 
 p{
-    font-size:16px;
+    font-size:14px;
 }
 
 h3{

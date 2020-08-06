@@ -2,6 +2,9 @@ import React from 'react';
 import Figure from 'react-bootstrap/Figure'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
+import { motion } from 'framer-motion'
+
+
 
 
 class Projects extends React.Component {
@@ -9,7 +12,11 @@ class Projects extends React.Component {
       return (
         <div>
           <Row>
-        <Figure>
+        <motion.Figure
+        className="mx-auto"
+        whileHover={{
+          scale:1.1
+        }}>
         <Figure.Image
           width={300}
           height={500}
@@ -21,8 +28,12 @@ class Projects extends React.Component {
         </Figure.Caption>
         <Button>Github</Button> 
         <Button>Deployed</Button>
-      </Figure>
-        <Figure>
+      </motion.Figure>
+      <motion.Figure
+      className="mx-auto"
+        whileHover={{
+          scale:1.1
+        }}>
         <Figure.Image
           width={300}
           height={200}
@@ -34,8 +45,12 @@ class Projects extends React.Component {
         </Figure.Caption>
         <Button>Github</Button>
         <Button>Deployed</Button>
-      </Figure>
-      <Figure>
+      </motion.Figure>
+      <motion.Figure
+      className="mx-auto"
+        whileHover={{
+          scale:1.1
+        }}>
         <Figure.Image
           width={300}
           height={200}
@@ -45,7 +60,7 @@ class Projects extends React.Component {
         <Figure.Caption>
         Write down new notes, edit old ones, or delete them.
         </Figure.Caption>
-      </Figure>
+      </motion.Figure>
       </Row>
       </div>
       )

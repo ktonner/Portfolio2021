@@ -9,7 +9,6 @@ Container{
 Figure{
     font-size: 18px;
     width: 300px;
-    margin:5px;
     border-radius: 10px;
     background-color: black;
 }

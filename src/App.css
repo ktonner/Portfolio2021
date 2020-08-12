@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #FAFAFA;
+  /* background-color: #FAFAFA; */
+  background-image: url('./assets/dot-grid.png');
   min-height: 100vh;
   display: flex;
   flex-direction: column;

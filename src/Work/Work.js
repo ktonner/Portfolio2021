@@ -9,7 +9,7 @@ import Skills from '../Components/Skills'
 const Work = () => (
     <Container>
     <Row>
-    <Col xs={12} md={12}className="mx-auto">
+    <Col className="mx-auto">
       <h1>Work</h1>
       <Projects/>
       </Col>

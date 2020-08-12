@@ -1,0 +1,17 @@
+.circle{
+    background:#F9FF3A;
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 100px solid #5BFFF3;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 90px;
+  }

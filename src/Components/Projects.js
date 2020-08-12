@@ -15,8 +15,7 @@ class Projects extends React.Component {
         <motion.Figure
         className="mx-auto"
         whileHover={{
-          scale:1.1,
-          boxShadow: "0px 0px 8px rgb(255,255,255)"
+          scale:1.1
         }}>
         <Figure.Image
           width={300}

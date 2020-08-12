@@ -16,7 +16,11 @@ class Projects extends React.Component {
         className="mx-auto"
         whileHover={{
           scale:1.1
-        }}>
+        }}
+        transformTemplate={(props, transform) =>
+          transform.replace(" translateZ(0)", "")
+        }
+        >
         <Figure.Image
           width={300}
           height={500}
@@ -33,7 +37,11 @@ class Projects extends React.Component {
       className="mx-auto"
         whileHover={{
           scale:1.1
-        }}>
+        }}
+        transformTemplate={(props, transform) =>
+          transform.replace(" translateZ(0)", "")
+        }
+        >
         <Figure.Image
           width={300}
           height={200}
@@ -50,7 +58,11 @@ class Projects extends React.Component {
       className="mx-auto"
         whileHover={{
           scale:1.1
-        }}>
+        }}
+        transformTemplate={(props, transform) =>
+          transform.replace(" translateZ(0)", "")
+        }
+        >
         <Figure.Image
           width={300}
           height={200}
@@ -60,6 +72,52 @@ class Projects extends React.Component {
         <Figure.Caption>
         Write down new notes, edit old ones, or delete them.
         </Figure.Caption>
+        <Button>Github</Button> 
+        <Button>Deployed</Button>
+      </motion.Figure>
+      </Row>
+      <Row>
+      <motion.Figure
+      className="mx-auto"
+        whileHover={{
+          scale: 1.1
+        }}
+        transformTemplate={(props, transform) =>
+          transform.replace(" translateZ(0)", "")
+        }
+        >
+        <Figure.Image
+          width={300}
+          height={200}
+          alt="171x180"
+          src={require('../assets/weatherdash.png')}
+        />
+        <Figure.Caption>
+        Search for a city and check the weather for today, plus a five-day forecast. Uses third-party API.
+        </Figure.Caption>
+        <Button href="https://github.com/ktonner/Weather_Dash" target='_blank'>Github</Button> 
+        <Button href="https://ktonner.github.io/Weather_Dash/" target='_blank'>Deployed</Button>
+      </motion.Figure>
+      <motion.Figure
+      className="mx-auto"
+        whileHover={{
+          scale: 1.1
+        }}
+        transformTemplate={(props, transform) =>
+          transform.replace(" translateZ(0)", "")
+        }
+        >
+        <Figure.Image
+          width={300}
+          height={200}
+          alt="171x180"
+          src={require('../assets/weatherdash.png')}
+        />
+        <Figure.Caption>
+        Search for a city and check the weather for today, plus a five-day forecast. Uses third-party API.
+        </Figure.Caption>
+        <Button href="https://github.com/ktonner/Weather_Dash" target='_blank'>Github</Button> 
+        <Button href="https://ktonner.github.io/Weather_Dash/" target='_blank'>Deployed</Button>
       </motion.Figure>
       </Row>
       </div>

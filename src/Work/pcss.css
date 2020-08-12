@@ -10,16 +10,13 @@ Figure{
     font-size: 18px;
     width: 300px;
     border-radius: 10px;
- 
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 Button{
     margin:5px;
 }
 
-Caption{
-    background-color:purple
-}
 
 p{
     font-size:14px;

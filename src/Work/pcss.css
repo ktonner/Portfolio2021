@@ -17,6 +17,9 @@ Button{
     margin:5px;
 }
 
+Row{
+    margin-bottom:30px
+}
 
 p{
     font-size:14px;

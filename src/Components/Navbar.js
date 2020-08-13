@@ -15,6 +15,7 @@ class Navigation extends React.Component {
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/p">Work</Nav.Link>
+                        <Nav.Link href="/c">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

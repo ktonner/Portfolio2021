@@ -5,6 +5,7 @@ import Navigation from './Components/Navbar'
 
 import Home from './Home/Home'
 import Work from './Work/Work'
+import Contact from './Components/Contact/index'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
       <Route path="/" exact component={Home} />
       <Route path="/p" exact component={Work} />
+      <Route path="/c" exact component={Contact} />
       </BrowserRouter>
       </header>
     </div>

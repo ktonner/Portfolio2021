@@ -1,3 +1,16 @@
 h1{
     font-family: 'Permanent Marker', cursive;
 }
+
+svg{
+    opacity: .8;
+}
+
+div.contact{
+    float:left;
+}
+
+svg:hover{
+    opacity:1;
+    transition: .3s
+}

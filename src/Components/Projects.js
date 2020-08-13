@@ -51,8 +51,8 @@ class Projects extends React.Component {
         <Figure.Caption>
         Register as a user to track your favorite books.
         </Figure.Caption>
-        <Button>Github</Button>
-        <Button>Deployed</Button>
+        <Button href='https://github.com/ktonner/full_stack_project'>Github</Button>
+        <Button href='http://booklogger123.herokuapp.com/'>Deployed</Button>
       </motion.Figure>
       <motion.Figure
       className="mx-auto"
@@ -72,8 +72,8 @@ class Projects extends React.Component {
         <Figure.Caption>
         Write down new notes, edit old ones, or delete them.
         </Figure.Caption>
-        <Button>Github</Button> 
-        <Button>Deployed</Button>
+        <Button href='https://github.com/ktonner/Note-Taker'>Github</Button> 
+        <Button href='https://ktonner.github.io/Note-Taker/'>Deployed</Button>
       </motion.Figure>
       </Row>
       <Row>
@@ -111,7 +111,7 @@ class Projects extends React.Component {
           width={300}
           height={200}
           alt="171x180"
-          src={require('../assets/codingquiz.png')}
+          src={require('../assets/quiz.png')}
         />
         <Figure.Caption>
         Test your coding knowledge in a fun quiz game. Earn points the faster you answer correctly and log your high score.
@@ -129,16 +129,17 @@ class Projects extends React.Component {
         }
         >
         <Figure.Image
+        className='budget'
           width={300}
           height={200}
           alt="171x180"
-          src={require('../assets/budget.jpg')}
+          src={require('../assets/budget.png')}
         />
         <Figure.Caption>
         Keep track of your budget with a dynamic graph.
         </Figure.Caption>
-        <Button href="https://github.com/ktonner/Weather_Dash" target='_blank'>Github</Button> 
-        <Button href="https://ktonner.github.io/Weather_Dash/" target='_blank'>Deployed</Button>
+        <Button href="https://github.com/ktonner/PWA" target='_blank'>Github</Button> 
+        <Button href="https://glacial-scrubland-56139.herokuapp.com/" target='_blank'>Deployed</Button>
       </motion.Figure>
       </Row>
       </div>

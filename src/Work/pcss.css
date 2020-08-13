@@ -13,13 +13,16 @@ Figure{
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
-Button{
+.budget{
+    object-fit: cover;
+    width: 300px;
+
+}
+
+a{
     margin:5px;
 }
 
-Row{
-    margin-bottom:30px
-}
 
 p{
     font-size:14px;

@@ -19,3 +19,11 @@
     z-index:1;
     box-shadow: 10px 8px 5px  black;
   }
+
+  .trapezoid {
+	border-bottom: 80px solid #555;
+	border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+	height: 0;
+	width: 800px;
+}

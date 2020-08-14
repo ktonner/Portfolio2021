@@ -25,7 +25,8 @@ class Decorations extends React.Component {
           <div>
             <Box className='triangle'/>
             <Circle className='circle'/>
-            
+            <Box className='trapezoid'/>
+
             </div>
         )
     }

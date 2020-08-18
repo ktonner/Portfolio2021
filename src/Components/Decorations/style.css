@@ -10,20 +10,28 @@
 .triangle {
     width: 0; 
     height: 0; 
-    border-left: 200px solid transparent;
-    border-bottom: 150px solid #5BFFF3;
+    border-left: 400px solid transparent;
+    border-bottom: 210px solid #5BFFF3;
     transform: rotate(40deg);
     position: relative;
-    top: 150px;
-    right:-30px;
+    right:-40px;
     z-index:1;
     box-shadow: 10px 8px 5px  black;
   }
 
   .trapezoid {
-	border-bottom: 80px solid #555;
-	border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
+	border-bottom: 90px solid #F9FF3A;;
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
 	height: 0;
-	width: 800px;
+    width: 800px;
+    position: absolute;
+    bottom: 70%;
+    left:-20%;
+    z-index: 0;
+}
+
+.decorations{
+    width:700px;
+    height: 100%;
 }

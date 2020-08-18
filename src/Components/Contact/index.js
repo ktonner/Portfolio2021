@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 
 const Contact = () => {
     return (
-        <div>
+        <div className='decorations'>
             <h2>Contact</h2>
             <Row className="mx-auto">
             <motion.div

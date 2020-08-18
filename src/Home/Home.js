@@ -14,8 +14,10 @@ const Home = () => (
         <Container>
             <Row>
             <Col xs={6} md={6} className='mx-auto'>
-             
+                <br></br>
+                <Decorations />
                     <h1 className='title'>Kathleen Tonner</h1>
+                    
                     <p><b>Full Stack Web Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong front-end development with React and collaboration skills on Social Media project 'Soapbox'. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
 </p>
                 
@@ -29,7 +31,7 @@ const Home = () => (
                 </Row>
             
             <Col xs={2} md={2}>
-                <Decorations />
+               
             </Col>
         </Container>
     </div>

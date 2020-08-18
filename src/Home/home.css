@@ -3,19 +3,23 @@ h1{
 }
 
 .title{
-    color:#ff1ac6;
+    color:#ff307b;
     font-size: 64px;
-    text-shadow:6px 4px #330033;
-    opacity: .8;
+    text-shadow:6px 4px #1a0f0e;
+    position: absolute;
+    bottom: 70%;
+    z-index: 2;
 }
 
 h2{
     font-family: 'Nanum Gothic', sans-serif;
+    position: absolute;
+    z-index: 2;
 }
 
 svg{
     opacity: .8;
-    margin-right: 13px;
+    
 }
 
 div.contact{

@@ -9,7 +9,7 @@ import Contact from '../Components/Contact/index'
 
 
 const variants = {
-    visible: { opacity: 1, x:100 },
+    visible: { opacity: 1, y:50 },
     hidden: { opacity: 0 },
   }
 
@@ -26,12 +26,12 @@ const Home = () => (
                     variants={variants}
                     transition={{
                             ease: "easeOut",
-                            default: { duration: 1 }
+                            default: { duration: .8 }
                         }}
                     >
                         <h1 className='title'>Kathleen Tonner</h1>
                     </motion.div>
-
+                        <h2 className='subtitle'>Full Stack Developer</h2>
                     <p><b>Full Stack Web Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong front-end development with React and collaboration skills on Social Media project 'Soapbox'. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
 </p>
 

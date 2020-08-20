@@ -20,14 +20,14 @@
   }
 
   .trapezoid {
-	border-bottom: 90px solid #F9FF3A;;
+	border-bottom: 90px solid #ffc4e9;
 	border-left: 60px solid transparent;
     border-right: 60px solid transparent;
 	height: 0;
     width: 800px;
     border-radius: 5px;
     position: absolute;
-    bottom: 70%;
+    bottom: 77%;
     left:-20%;
     z-index: 0;
 }

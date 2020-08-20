@@ -8,30 +8,44 @@ import { motion } from "framer-motion";
 import Contact from '../Components/Contact/index'
 
 
+const variants = {
+    visible: { opacity: 1, x:100 },
+    hidden: { opacity: 0 },
+  }
 
 const Home = () => (
     <div>
         <Container>
             <Row>
-            <Col xs={6} md={6} className='mx-auto'>
-                <br></br>
-                <Decorations />
-                    <h1 className='title'>Kathleen Tonner</h1>
-                    
+                <Col xs={6} md={6} className='mx-auto'>
+                    <br></br>
+                    <Decorations />
+                    <motion.div
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    transition={{
+                            ease: "easeOut",
+                            default: { duration: 1 }
+                        }}
+                    >
+                        <h1 className='title'>Kathleen Tonner</h1>
+                    </motion.div>
+
                     <p><b>Full Stack Web Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong front-end development with React and collaboration skills on Social Media project 'Soapbox'. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
 </p>
-                
-                <br></br>
+
+                    <br></br>
                 </Col>
-                </Row>
-                <Row>
-                    <Col md={3} className='mx-auto p-5'>
+            </Row>
+            <Row>
+                <Col md={3} className='mx-auto p-5'>
                     <Contact />
-                    </Col>
-                </Row>
-            
+                </Col>
+            </Row>
+
             <Col xs={2} md={2}>
-               
+
             </Col>
         </Container>
     </div>

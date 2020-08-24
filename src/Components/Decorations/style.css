@@ -6,45 +6,50 @@
     box-shadow: 5px 5px 5px  black;
     z-index:0;
     position: relative;
-    left:135px;
+    left:130px;
+    bottom: 260px;
 }
 
 .line{
-    background:#fff0f7;
-    width:220px;
+    /* background: linear-gradient(to right, #fff0f7, #ffc7e3); */
+    background: #fff0f7;
+    width:200px;
     height:15px;
     border-radius: 5%;
     position: relative;
-    top: 100px;
+    bottom: 480px;
     left: 70px;
-    opacity: .8;
-    z-index: 1;
+    opacity: .7;
+    z-index: 0;
 }
 
 .second{
     position: relative;
-    top: 120px;
-    width: 300px;
+    bottom: 460px;
+    width: 280px;
     left: -10px;
+
 }
 
 .third{
     position: relative;
-    top: 140px
+    bottom: 430px;
 }
 
 .triangle {
     width: 0; 
     height: 0; 
-    border-left: 450px solid transparent;
-    border-bottom: 210px solid #5BFFF3;
-    transform: rotate(40deg);
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 300px solid #5BFFF3;
     position: relative;
-    right:10px;
-    top: 190px;
+    right: 30px;
+    top: 80px;
     z-index:0;
     /* box-shadow: 10px 8px 5px  black; */
   }
+
+
 
   .trapezoid {
 	border-bottom: 90px solid #ffc4e9;
@@ -61,5 +66,4 @@
 
 .decorations{
     width:700px;
-    height: 100%;
 }

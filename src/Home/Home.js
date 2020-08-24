@@ -13,6 +13,11 @@ const variants = {
     hidden: { opacity: 0 },
   }
 
+const variants2 = {
+    visible: { opacity: 1, y:-20 },
+    hidden: { opacity: 0 },
+}
+
 const Home = () => (
     <div>
         <Container>
@@ -26,13 +31,24 @@ const Home = () => (
                     variants={variants}
                     transition={{
                             ease: "easeOut",
-                            default: { duration: .8 }
+                            default: { duration: 1 }
                         }}
                     >
-                        <h1 className='title'>Kathleen Tonner</h1>
+                        <h1 className='title' style={{'z-index':3}}>Kathleen Tonner</h1>
                     </motion.div>
+                    <motion.div
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants2}
+                    transition={{
+                            ease: "easeOut",
+                            delay: 1,
+                            default: { duration: 2.3 }
+                        }}
+                    >
                         <h2 className='subtitle'>Full Stack Developer</h2>
-                    <p><b>Full Stack Web Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong front-end development with React and collaboration skills on Social Media project 'Soapbox'. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
+                        </motion.div>
+                    <p><b>Full Stack Developer</b> using a background in content creation to create clean, comprehensive code. Earned a certificate in Full Stack Development from the University of Central Florida, with developed skills in JavaScript, CSS, and Node.js. Applied strong front-end development with React and collaboration skills on Social Media project 'Soapbox'. I am accustomed to working tight deadlines and adapting. Looking forward to contributing to a team’s success and making better digital products.
 </p>
 
                     <br></br>

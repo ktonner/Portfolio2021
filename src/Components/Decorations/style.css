@@ -1,22 +1,49 @@
 .circle{
-    background:#F9FF3A;
-    width:170px;
-    height:170px;
+    background:#ffc7e3;
+    width:275px;
+    height:275px;
     border-radius: 50%;
-    box-shadow: 10px 10px 5px  black;
-    z-index:3
+    box-shadow: 5px 5px 5px  black;
+    z-index:0;
+    position: relative;
+    left:135px;
+}
+
+.line{
+    background:#fff0f7;
+    width:220px;
+    height:15px;
+    border-radius: 5%;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    opacity: .8;
+    z-index: 1;
+}
+
+.second{
+    position: relative;
+    top: 120px;
+    width: 300px;
+    left: -10px;
+}
+
+.third{
+    position: relative;
+    top: 140px
 }
 
 .triangle {
     width: 0; 
     height: 0; 
-    border-left: 400px solid transparent;
+    border-left: 450px solid transparent;
     border-bottom: 210px solid #5BFFF3;
     transform: rotate(40deg);
     position: relative;
-    right:-40px;
-    z-index:1;
-    box-shadow: 10px 8px 5px  black;
+    right:10px;
+    top: 190px;
+    z-index:0;
+    /* box-shadow: 10px 8px 5px  black; */
   }
 
   .trapezoid {

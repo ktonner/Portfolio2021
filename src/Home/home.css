@@ -8,10 +8,12 @@ h1{
   
     font-size: 48px;
     color: #adf7ff;
+    text-shadow: 3px 3px black;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    bottom:100px;
+    bottom:250px;
     z-index: 2;
+    -webkit-text-stroke: .5px #38ecff; 
 }
 
 
@@ -19,7 +21,7 @@ h1{
 .subtitle{
     font-family: 'Yellowtail', cursive;
     position: relative;
-    bottom: 70px;
+    bottom: 190px;
     color:#ffffff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;

@@ -23,9 +23,12 @@ class Decorations extends React.Component {
     render() {
         return (
           <div>
-            {/* <Box className='triangle'/>
-            <Circle className='circle'/> */}
-            <Box className='trapezoid'/>
+            <Box className='triangle'/>
+            {/* <Box className='line'/>
+            <Box className='line second'/>
+            <Box className='line third'/> */}
+            <Circle className='circle'/>
+            {/* <Box className='trapezoid'/> */}
 
             </div>
         )

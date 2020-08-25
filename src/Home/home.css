@@ -11,7 +11,7 @@ h1{
     text-shadow: 3px 3px black;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    bottom:550px;
+    bottom:220px;
     z-index: 2;
     -webkit-text-stroke: .5px #38ecff; 
 }
@@ -21,7 +21,8 @@ h1{
 .subtitle{
     font-family: 'Yellowtail', cursive;
     position: relative;
-    bottom: 480px;
+    bottom: 145px;
+    right:5px;
     color:#ffffff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -46,6 +47,10 @@ h2{
 svg{
     opacity: .8;
     
+}
+
+.para{
+    clear:both;
 }
 
 div.contact{

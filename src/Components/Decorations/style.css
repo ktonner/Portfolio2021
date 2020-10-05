@@ -67,3 +67,10 @@
 .decorations{
     width:700px;
 }
+
+/* TABLET/CELLPHONE SCEEN SIZES */
+@media only screen and (max-width: 1024px) {
+.circle {display:none}
+.line {display: none}
+.triangle {display:none}
+}

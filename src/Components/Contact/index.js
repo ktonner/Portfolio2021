@@ -9,7 +9,7 @@ const Contact = () => {
             <h2>Contact</h2>
             </Row>
             <br></br>
-            <Row className="mx-auto">
+            <Row>
             {/* <motion.div
                 whileHover={{
                     scale: 1.1,

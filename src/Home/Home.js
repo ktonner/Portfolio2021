@@ -59,7 +59,7 @@ const Home = () => (
                 </Col>
             </Row>
             <Row>
-                <Col md={3} className='mx-auto p-5'>
+                <Col md={6} className='mx-auto'>
                     <Contact />
                 </Col>
             </Row>

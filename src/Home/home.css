@@ -13,7 +13,7 @@ h1{
     position: relative;
     bottom:220px;
     z-index: 2;
-    -webkit-text-stroke: .5px #38ecff; 
+    -webkit-text-stroke: .25px black; 
 }
 
 
@@ -40,17 +40,12 @@ h1{
 
 h2{
     font-family: 'Nanum Gothic', sans-serif;
-    position: absolute;
     z-index: 2;
 }
 
 svg{
     opacity: .8;
     
-}
-
-.para{
-    clear:both;
 }
 
 div.contact{

@@ -14,7 +14,7 @@ function App() {
       <Navigation/>
       <header className="App-header">
       <BrowserRouter>
-      <Route path="/Portfolio" exact component={Home} />
+      <Route path="/Portfolio2.0" exact component={Home} />
       <Route path="/" exact component={Home} />
       <Route path="/p" exact component={Work} />
       <Route path="/c" exact component={Contact} />

@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
       <Route path="/Portfolio2" exact component={Home} />
       <Route path="/" exact component={Home} />
-      <Route path="/Portfolio2/p" exact component={Work} />
+      <Route path="/Portfolio2/work" exact component={Work} />
       <Route path="/p" exact component={Work} />
       <Route path="/c" exact component={Contact} />
       </BrowserRouter>

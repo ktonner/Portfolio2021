@@ -14,7 +14,7 @@ class Navigation extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/p" onclick="window.open('/p', '_self');">Work</Nav.Link>
+                        <Nav.Link href="/Portfolio2/work">Work</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import './pcss.css'
-import Projects from '../Components/Projects'
-import Skills from '../Components/Skills'
+import Projects from '../../components/Projects'
+import Skills from '../../components/Skills'
 
 const Work = () => (
     <Container>

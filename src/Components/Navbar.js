@@ -14,7 +14,7 @@ class Navigation extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Portfolio2/work">Work</Nav.Link>
+                        <Nav.Link href="/work">Work</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

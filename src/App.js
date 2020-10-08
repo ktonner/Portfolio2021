@@ -19,6 +19,7 @@ function App() {
       <Route path="/Portfolio2" exact component={Home} />
       <Route path="/" exact component={Home} />
       <Route path="/work" exact component={Work} />
+      <Route path="/Portfolio2/work" exact component={Work} />
       </Switch>
       </BrowserRouter>
       </header>

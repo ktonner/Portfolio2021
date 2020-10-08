@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import './home.css'
-import Decorations from '../../components/Decorations/Decorations'
-import Contact from '../../components/Contact/index'
+import Decorations from '../../Components/Decorations/Decorations'
+import Contact from '../../Components/Contact/index'
 import { motion } from "framer-motion"
 
 const variants = {

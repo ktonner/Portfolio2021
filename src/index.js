@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from "react-router-dom";
 import './index.css';
 import App from './App';
+import { Router } from 'react-router';
+import { BrowserRouter} from 'react-router-dom';
+import routes from './routes';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <BrowserRouter routes={routes} basename={process.env.PUBLIC_URL}>
     <App />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

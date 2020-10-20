@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { Router } from 'react-router';
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import routes from './routes';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter routes={routes} basename={process.env.PUBLIC_URL}>
+  <HashRouter routes={routes} basename={process.env.PUBLIC_URL}>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

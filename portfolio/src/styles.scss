@@ -1,0 +1,17 @@
+// Override default variables before the import
+$body-bg: #b892ff;
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+//Normal styles
+
+.logo{
+    width:50px
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+}

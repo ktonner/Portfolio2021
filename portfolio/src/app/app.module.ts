@@ -9,6 +9,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
@@ -22,7 +23,8 @@ const routes: Routes = [
     NavComponent,
     HomePageComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

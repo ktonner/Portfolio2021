@@ -1,3 +1,4 @@
+import { SkillsComponent } from './skills/skills.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'home', component: HomePageComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'contact', component: ContactComponent},
-  {path: 'work', component: WorkComponent}
+  {path: 'work', component: WorkComponent},
+  {path: 'skills', component: SkillsComponent}
 ];
 
 @NgModule({

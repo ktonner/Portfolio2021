@@ -19,3 +19,15 @@ footer{
     position: absolute;
     bottom:0px;
 }
+
+.projectImg{
+    object-fit:cover;
+    overflow:hidden;
+}
+.soapImg{
+    object-position: 10% 50%;
+}
+
+.weatherImg{
+    object-position: 50% 50%
+}

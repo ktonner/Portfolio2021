@@ -2,10 +2,11 @@
 $body-bg: #b892ff;
 
 
-// Import Bootstrap and its default variables
+// Import Bootstrap and Fonts
 @import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Zen+Kurenaido&display=swap');
 
-//Normal styles
+//Default styles
 
 .logo{
     opacity: .5;
@@ -19,6 +20,14 @@ footer{
     position: absolute;
     bottom:0px;
 }
+
+h1,h2,h3{
+    font-family:'Quicksand';
+    font-weight:700;
+    color:#46237a;
+}
+
+//Work
 
 .projectImg{
     object-fit:cover;
@@ -37,8 +46,13 @@ footer{
 .pinkCircle{
     background:#ee4266;
     color:white;
+    text-align:center;
+    font-family: 'Quicksand';
+    font-weight:500;
 }
 
 ul.nobullets{
     list-style-type: none;
 }
+
+//Typing Animation

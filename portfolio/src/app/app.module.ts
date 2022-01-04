@@ -1,7 +1,6 @@
 import { SkillsComponent } from './skills/skills.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -12,12 +11,14 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
+import { ModalComponent } from './modal/modal.component';
+import { WorkPageComponent } from './work-page/work-page.component';
 
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'contact', component: ContactComponent},
-  {path: 'work', component: WorkComponent},
+  {path: 'work', component: WorkPageComponent},
   {path: 'skills', component: SkillsComponent},
   {path: 'about', component: AboutComponent}
 ];
@@ -30,7 +31,9 @@ const routes: Routes = [
     ContactComponent,
     FooterComponent,
     AboutComponent,
-    WorkComponent
+    WorkComponent,
+    ModalComponent,
+    WorkPageComponent
   ],
   imports: [
     BrowserModule,

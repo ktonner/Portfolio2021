@@ -5,23 +5,27 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './work.component.html',
   styleUrls: ['./work.component.css']
 })
-export class WorkComponent implements OnInit {
+export class WorkComponent implements OnInit{
 
   soapboxURL: string = '../../assets/images/soapbox.png';
-  currentURL:string = ""
+  projects: Object[];
 
-  changeURL(url:string){
-    this.soapboxURL = url
-    console.log('url change')
-  };
-
-  resetSoapbox(){
-    this.soapboxURL = '../../assets/images/soapbox.png'
+  constructor() { 
+    this.projects = [
+      {
+        title: "Soapbox",
+        info: "Create and share posts on this social media application. Follow users that make content you enjoy. Posts can be created with searchable tags to find similar content.",
+        url: "../../assets/images/soapbox.png",
+        gif: "../../assets/images/soapbox.gif"
+      },
+      {
+        title: "Weather Dashboard",
+        info: "",
+        url:"",
+        gif:""
+      }
+    ]
   }
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit() {}
 }
